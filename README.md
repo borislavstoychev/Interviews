@@ -1,2 +1,0 @@
-# SiftUni_Bootcamp
-Preparation
