@@ -14,6 +14,6 @@ class File:
         except FileNotFoundError:
             print('File name not exist please input message to create')
             with open(f"{self.name}.txt", "a+")as f:
-                f.write(input('k=')+"\n")
+                f.write(input('k=') + "\n")
                 f.write(input('message='))
         return self.__open_for_read()

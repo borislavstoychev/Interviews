@@ -1,11 +1,12 @@
-from crypter.crypt_message import Crypt
+from crypter.decrypt_message import Decrypt
+from crypter.encrypt_message import Encrypt
 from crypter.file_searching import File
 
 
 def main():
     filename = File(input())
     k, msg = filename.get_message_k()
-    print(Crypt(k, msg).get_crypt())
+    print(Encrypt(k, msg).get_encrypt())
 
 
 if __name__ == '__main__':

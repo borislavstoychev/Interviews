@@ -1,20 +1,16 @@
-class Crypt:
+from crypter.prime_checker import is_prime
+
+
+class Decrypt:
     def __init__(self, message, k):
         self.message = message
         self.k = k
 
-    @staticmethod
-    def is_prime(n):
-        for i in range(2, n):
-            if n % i == 0:
-                return False
-        return True
-
-    def __crypt(self):
+    def __decrypt(self):
         p = list(self.message)
         s = []
         for i in range(2, len(p) + 1):
-            if self.is_prime(i):
+            if is_prime(i):
                 s.append(i - 1)
         old_mess = list(p[len(s):])
         new_mess = list(p[:len(s)])
@@ -22,8 +18,11 @@ class Crypt:
             old_mess.insert(l, new_mess.pop(0))
         return ''.join(e for e in old_mess)
 
-    def get_crypt(self):
+    def get_decrypt(self):
         for i in range(0, int(self.k)):
-            self.message = self.__crypt()
+            self.message = self.__decrypt()
         return self.message
+
+
+
 
