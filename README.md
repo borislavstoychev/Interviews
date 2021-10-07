@@ -1,2 +1,2 @@
-# SiftUni_Bootcamp
-Preparation
+# All exam
+Tasks
