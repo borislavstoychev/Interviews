@@ -1,4 +1,4 @@
-from crypter.prime_checker import is_prime
+from interview_tasks.crypter.prime_checker import is_prime
 
 
 class Encrypt:
