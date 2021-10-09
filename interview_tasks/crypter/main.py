@@ -1,12 +1,22 @@
-from interview_tasks.crypter.decrypt_message import Decrypt
 from interview_tasks.crypter.file_searching import File
-from interview_tasks.crypter.encrypt_message import Encrypt
+from interview_tasks.crypter.crypt import Crypt
+import datetime
 
 
 def main():
     filename = File(input())
-    k, msg = filename.get_message_k()
-    print(Encrypt(k, msg).get_encrypt())
+    start_time = datetime.datetime.now().microsecond
+    msg, k = filename.get_message_k()
+    print(Crypt(msg, k).get_encrypt())
+    end_time = datetime.datetime.now().microsecond
+    print(f'Microseconds: {end_time - start_time}')
+    filename1 = File(input())
+    start_time = datetime.datetime.now().microsecond
+    msg, k = filename1.get_message_k()
+    print(Crypt(msg, k).get_decrypt())
+    end_time = datetime.datetime.now().microsecond
+    print(f'Microseconds: {end_time - start_time}')
+
 
 
 if __name__ == '__main__':

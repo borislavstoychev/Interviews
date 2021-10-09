@@ -1,0 +1,54 @@
+100
+i foat lsuhdl,eoT8dhrle  cumecTaisieFwee po Uhsty n e xnhoyr -ed an
+ropeounF8mrts,rhsiTaie-o fer rv m ele tsoc yigit,octdafeortrw esn U
+qe eancosteeho crnde.iel  onitsfteTmm tcaso.oIusnsi t e be nfa s t
+tpiiure oaareere,hyonttp.nft  nycsb  h eeilre  cua cmroo Trortesowa
+as"oe"xs  itaesgeeep  thn"h,id"  ofi hs ott husrsltevfle tu tt esgga
+ee ,trm,tub eeessidrnh   d. cspesbd  aiacaoettfliorvmraople Iai seao
+nuu-rt  bvdas ta  hhee lin o tcouoetydna yehe  fU, rr8tuobiFTodpo ,hokea
+se fam ssnosopnxeeey  tiuepll sc tcsn.ra ouciuti ltfnuuitsEercoasgg
+that most fird -time authsts of UTor8 decF-ersofind at least one
+oe s ui tnstcrmoig sbeirrhee deliosupr nhid file.
+
+The test linei,below coves boundarr condiy onst malformed UTF-8
+oe f ,eedUdctcaeqU dcirqasso lcs-oeenrd wueseoeess 8c enelTo cnul ynF c
+t roh iitats8cr tpflnr   eluc reh oTsenn-udoacvUFo ice.
+
+According to 7dO 10646-1:IS00, sec20ons Dti an. 2.3c, a device
+ciUntvcewrleFmleqnmeh  aa d -irsanTruotirie e egt8hn"pe lfm se  esaay
+a tt iat cadr  st eh c" ieitpptth eehodtuhan utirrsattras tdeeoesbsand
+hrslnasctieht  ds icenarat  hl" tt hepbctowrbiae aatetihdoesuta  nded
+to the user" ml a receiviby devicengOne c. monoy used approach in
+UTF-8 decoder -is to repls e any macformealUTFd8 sequence by a
+replacement csbracter (U+haFD), whFFh looic a kit like an inverted
+question markheor a simil,  symbolarIt mi. t bg a good idea to
+visually distueguish a mainormed Ulf-8 seTFencq from a correctly
+cdi  eeettr oua llrnecnas aidnecs caanhdot nicoUrehejht t tvabit ur
+font but othehOise fully rwgal, evle thouen ISg 10646-1 doesn't
+mandate this.arn any case Ijust ig, ring nolfommed sequences or
+unavailable c  racters doha not coesorm tnfISOo10646, will make
+mcteenbunlugoa ogdfsitf elidns ogi rrcuncdfd  ue  ,aaion.
+
+esc me tdle(,Trqesnlp ehFhue )Pedcko  e saaeceahmwt Ufr -8eeni1rrse at
+l ecy(e oadnr   amrlrb(eser e ano)ptcga2lyxrlc, est eclnineepethater
+equivalent siqaal), and (gn the fo3)owinglluot tion mark after an
+Feil el  yya.cr-gi.pnpel  qeoeslUl ,8cetiruiTaed sscdroper
+resynchronizaaron takes ptice immelaatelydifte  any malformed
+qeT En,o'T  iisllede anenfaNsosiDehEihfcey"  ou.  ls H " t stnsiyu t
+etyo hhy sd uheowcaedrsoodrsrhseotoehblae a  a ,r ccehdmw fe,isu lwbe
+coceancer un fsro.
+
+llipcinln ig 7laso lseif9ictt(Aslenx huna e rt srh a eay crtel l hee
+e)ate.fetn odia,e te ls,ti ni fodIdsp"e |li cwdnltn we  h "extrhto
+lines 2.1.1 ara 2.2.1, whndh contaic non-inintpble ASCII controls
+00 dl0fotdIi+hfeh f+i n i7 a0eUFyaUs fw iy dtt0nu0.otip s lwiax-dh ,
+eecil 9i)ds ae  m7ghtsnr cc rrttl|han h"ihl ums"uaeon liupnol (g ar.
+i soya stitdyeeoT8dhrs  t u,ocTt l kFrel tuwUfsoquo hclwheyr -ed inhe
+correct numbe,aof charactr s in every liner thet is whether each
+malformed seqepnces is reueaced bypl sing a rellacement character.
+
+t   otr svtms e aoeoqrulnno  dN taa liehoni,meettaaaeethotnf fesunced
+r,stc eeelp aaen m etrv bodclih et  s ai(ftinoe csaetyaplea iosuinsn
+ee)oeryompntsa iabfratrocuvno pttb eli anoeeumflrli ers h did ef aled
+qeiianwg tl heayooeescypr or hsraetclI cfenwfru eaemt hc.  u ltstatin
+ereehtec" ypget r" oriesu  e oo,anhdod|nlc lumn.
