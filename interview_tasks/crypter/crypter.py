@@ -1,4 +1,4 @@
-from interview_tasks.crypter.prime_checker import get_prime_indexes
+from prime_checker import get_prime_indexes
 
 
 class Crypt:

@@ -1,5 +1,5 @@
-from interview_tasks.crypter.file_searching import File
-from interview_tasks.crypter.crypt import Crypt
+from file_searching import File
+from crypter import Crypt
 import datetime
 
 
@@ -16,7 +16,6 @@ def main():
     print(Crypt(msg, k).get_decrypt())
     end_time = datetime.datetime.now().microsecond
     print(f'Microseconds: {end_time - start_time}')
-
 
 
 if __name__ == '__main__':
